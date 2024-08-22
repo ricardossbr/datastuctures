@@ -1,8 +1,12 @@
+package binary_search;
+
 import model.SourceBuilder;
 
-public class BinarySearch {
+public class BinarySearch implements Search {
 
+    @Override
     public void execute(int chosenNumber){
+        System.out.println("To execute a Binary Search");
         int[] array = SourceBuilder.getBigListNumbers();
         int first = 0;
         int last = array.length - 1;
