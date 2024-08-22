@@ -8,7 +8,7 @@ public class ExampleScenarioToUsedBinarySearch {
 
     public void execute() {
         int first = 0;
-        int last = 2147483647;
+        int last = Integer.MAX_VALUE;
         int attempts = 1;
         while (first <= last) {
             int middle = (first + last) / 2;
